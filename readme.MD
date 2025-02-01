@@ -65,3 +65,9 @@ By default, containers can't communicate with each other using the default bridg
 Created the `expense` network, then disconnected MySQL from the default network and added it to the `expense` network.
 
 Similary, backend container added to expense network.
+
+
+```
+docker compose up -d
+docker compose down
+```
